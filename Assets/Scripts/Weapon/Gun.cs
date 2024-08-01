@@ -10,7 +10,7 @@ namespace Weapon
         [SerializeField] private Transform _spawnPoint;
         [SerializeField, Range(0, 10)] private float _shootingDelay;
 
-        private const float DistanceFromCamera = 10.0f;
+        private const float DistanceFromCamera = 12.0f;
 
         private PlayerInput _input;
         private Camera _camera;
